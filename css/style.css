@@ -209,7 +209,7 @@ button:active{
     color: #7e7d7d;
     font-family: sans-serif;
     font-size: 20px;
-    line-height: 28px;
+    line-height: 100px;
     font-weight: lighter;
     text-align: center;
 }
@@ -227,19 +227,24 @@ button:active{
 .box-container{
     display: flex;
     justify-content: space-evenly;
-    border-radius: 20px;
 }
 
 .box-1{
     background-image: url("../images/projai.png");
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 .box-2{
     background-image: url("../images/projweb.png");
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 .box-3{
     background-image: url("../images/projand.png");
+    border-radius: 10px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
 }
 
 .box-1 span,.box-2 span,.box-3 span{
