@@ -289,7 +289,7 @@ button:active{
     margin-top: 10%;
     width: 100%;
     height: 280px;
-    background-image: url("../images/project in your mind.png");
+    background-image: url("../images/contactback.png");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -298,7 +298,7 @@ button:active{
     align-items: center;
 }
 
-.contact-me p{
+.contact-me p:nth-child(1){
     color: #ffffff;
     font-size: 30px;
     font-family: sans-serif;
@@ -314,4 +314,11 @@ button:active{
     font-size: 14px;
     font-weight: bold;
     border-radius: 5px;
+    line-height: 30px;
+}
+.contact-me p:nth-child(3){
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
 }
