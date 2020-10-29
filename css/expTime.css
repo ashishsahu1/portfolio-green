@@ -45,15 +45,15 @@ nav ul{
     display: flex;
 }
 
-nav ul li a:hover{
-    font-weight: bolder;
-    color: #000000;
+nav ul li a:hover:not(.active){
+    background-color:#f3f3f3 ;
 }
 
 nav ul li a{
     display: block;
     text-align: center;
-    margin: 30px;
+    padding: 18px 30px;
+    text-decoration: none;
     font-family: sans-serif;
     color: #505050;
     font-size: 20px;

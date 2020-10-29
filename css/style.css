@@ -35,21 +35,29 @@ nav{
 
 nav ul{
     display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-nav ul li a:hover{
-    font-weight: bolder;
-    color: #000000;
+nav li{
+    float: right;
 }
 
 nav ul li a{
-    margin: 30px;
+    display: block;
+    text-align: center;
+    padding: 18px 30px;
+    text-decoration: none;
     font-family: sans-serif;
     color: #505050;
     font-size: 20px;
     font-weight: lighter;
 }
 
+nav ul li a:hover:not(.active){
+    background-color:#f3f3f3 ;
+}
 
 .logo{
     font-family: sans-serif;
@@ -58,10 +66,6 @@ nav ul li a{
     font-weight: bold;
 }
 
-.active{
-    font-weight: bold;
-    color: #2d2a2a;
-}
 
 .text-container p:nth-child(1){
     font-family: sans-serif;
@@ -77,6 +81,20 @@ nav ul li a{
     color: #1a1a1a;
     font-size: 65px;
 }
+
+/* .text-container p:nth-child(2){
+    animation: greet 3s;
+    white-space: nowrap;
+}
+
+@keyframes greet {
+    0%{
+        width: 0ch;
+    }
+    100%{
+        width: 11ch;
+    }
+} */
 
 .text-container p:nth-child(3){
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -99,26 +117,28 @@ nav ul li a{
 }
 
 .text-container button{
-    width: 130px;
-    height: 42px;
+    width: 150px;
+    height: 50px;
     border-radius: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     outline: none;
     margin: 0px 10px;
 }
 
-.hire-btn{
+.down-cv{
     border: 2px solid #373636;
     color: #373636;
+    transition-duration: 0.4s;
 }
 
-.down-cv{
-    background-color: #0b0b0b;
-    color: #ffffff;
-    border: none;
+.down-cv:hover{
+    background-color: #1a1a1a;
+    color: #e7e4e4;
 }
+
+
 
 button:active{
     transform: scale(1.1);
@@ -154,6 +174,7 @@ button:active{
     align-items: center;
 }
 
+
 .about-container img{
     height: 250px;   
 }
@@ -168,6 +189,8 @@ button:active{
     line-height: 60px;
     text-align: center;
 }
+
+
 
 .about-text p:nth-child(2){
     color: #3e3d3d;
@@ -390,6 +413,10 @@ button:active{
     position: relative;
   }
   
+  .skill-per:hover{
+    background-color: #1a1a1a;
+  }
+
   .skill-per::before{
     content: attr(per);
     position: absolute;
