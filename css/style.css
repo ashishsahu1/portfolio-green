@@ -37,6 +37,11 @@ nav ul{
     display: flex;
 }
 
+nav ul li a:hover{
+    font-weight: bolder;
+    color: #000000;
+}
+
 nav ul li a{
     margin: 30px;
     font-family: sans-serif;
@@ -223,7 +228,22 @@ button:active{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    transition: 0.5s, 0.5s;
 }
+.box-1:hover{
+    width: 338px ;
+    height: 373px;
+}
+.box-2:hover{
+    width: 338px ;
+    height: 373px;
+}
+.box-3:hover{
+    width: 338px ;
+    height: 373px;
+}
+
+
 .box-container{
     display: flex;
     justify-content: space-evenly;
