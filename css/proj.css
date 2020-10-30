@@ -67,11 +67,11 @@ nav ul li a:hover:not(.active){
     font-weight: bold;
 }
 
-.grid-container {
+.cards {
     display: grid;
     grid-template-columns: auto auto auto; 
 }
-.grid-item {
+.card {
     margin: 60px;
     height: 400px;
     width: 300px;
@@ -83,7 +83,7 @@ nav ul li a:hover:not(.active){
     transition-duration: 0.5s;
   }
 
-.grid-item:hover{
+.card:hover{
     height: 420px;
     width: 320px;
 }
