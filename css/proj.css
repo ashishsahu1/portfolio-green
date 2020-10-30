@@ -80,7 +80,13 @@ nav ul li a:hover:not(.active){
     padding: 50px;
     font-size: 30px;
     text-align: center;
+    transition-duration: 0.5s;
   }
+
+.grid-item:hover{
+    height: 420px;
+    width: 320px;
+}
 
 .projName{
     margin-top: 50px;
