@@ -380,7 +380,7 @@ button:active{
     font-weight: bold;
 }
 
-.contact-me button{
+.contact-me #submit{
     width: 200px;
     height: 40px;
     background-color: #ffffff;
@@ -393,7 +393,8 @@ button:active{
     transition-duration: 0.6s;
 }
 
-.contact-me button:hover{
+
+.contact-me #submit:hover{
     border-width: 2px;
     background-color:#00B5B7;
     color: #f6f5f5;
@@ -402,7 +403,7 @@ button:active{
 .contact-me p:nth-child(3){
     color: #ffffff;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
 }
 
