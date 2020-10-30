@@ -3,8 +3,18 @@
 body{
     background-color: #f6f5f5;
     margin: 0px;
-    padding: 0px;
+    padding: 0px;  
+    animation: fadeInAnimation 2s;
 }
+
+@keyframes fadeInAnimation { 
+    from { 
+        opacity: 0; 
+    } 
+    to { 
+        opacity: 1; 
+     } 
+} 
 
 ul{
     list-style: none;
@@ -172,12 +182,24 @@ button:active{
     position: relative;
     justify-content: space-evenly;
     align-items: center;
+    transition-duration: 1s;
+}
+
+.about-container:hover{
+    height: 510px;
+    width: 83%;
+}
+
+.about-container:hover img{
+    height: 300px;
 }
 
 
 .about-container img{
     height: 250px;   
+    transition-duration: 1s;
 }
+
 .about-text{
     width: 550px;    
 }
@@ -188,6 +210,10 @@ button:active{
     font-weight: 23px;
     line-height: 60px;
     text-align: center;
+    transition-duration: 1s;
+}
+.about-container:hover p:nth-child(1){
+    font-size: 43px;
 }
 
 
@@ -199,6 +225,10 @@ button:active{
     font-weight: bold;
     line-height: 10px;
     text-align: center;
+    transition-duration: 1s;
+}
+.about-container:hover p:nth-child(2){
+    font-size: 28px;
 }
 
 .about-text p:nth-child(3){
@@ -207,7 +237,11 @@ button:active{
     font-size: 20px;
     line-height: 28px;
     font-weight: lighter;
-    text-align: justify;
+    text-align: center;
+    transition-duration: 1s;
+}
+.about-container:hover p:nth-child(3){
+    font-size: 21px;
 }
 
 .about-text p:nth-child(4){
@@ -216,6 +250,10 @@ button:active{
     font-size: 20px;
     line-height: 28px;
     text-align: center;
+    transition-duration: 1s;
+}
+.about-container:hover p:nth-child(4){
+    font-size: 23px;
 }
 
 .technologies{
@@ -358,6 +396,14 @@ button:active{
     font-weight: bold;
     border-radius: 5px;
     line-height: 30px;
+    transition-duration: 0.6s;
+}
+
+.contact-me button:hover{
+    border-width: 2px;
+    background-color:#00B5B7;
+    color: #f6f5f5;
+    border-color: #fff;
 }
 .contact-me p:nth-child(3){
     color: #ffffff;
@@ -409,7 +455,7 @@ button:active{
     background-color: #00B5B7;
     border-radius: 8px;
     width: 0;
-    transition: 1s linear;
+    transition: 0.4s linear;
     position: relative;
   }
   

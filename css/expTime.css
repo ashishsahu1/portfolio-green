@@ -2,7 +2,18 @@ body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    animation: fadeInAnimation 2s;
 }
+
+@keyframes fadeInAnimation { 
+    from { 
+        opacity: 0; 
+    } 
+    to { 
+        opacity: 1; 
+     } 
+} 
+
 
 body h1{
     padding-top: 20px;
@@ -71,6 +82,7 @@ nav ul li a{
 .timeline:before{
     margin-top: 10px;
     content: '';
+    
     position: absolute;
     left: 50%;
     width: 3px;
@@ -90,6 +102,13 @@ nav ul li a{
     width: 50%;
     padding: 20px 40px;
     box-sizing: border-box;
+    border-radius: 15px;
+    /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); */
+}
+
+.timeline ul li:hover{
+    /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137);*/
+    background-color:#77abac2c; 
 }
 .timeline ul li:nth-child(odd)
 {
@@ -145,8 +164,8 @@ nav ul li a{
     background: #00B5B7;
     color: #ffffff;
     border-radius: 18px;
-    box-shadow:  0 0 0 3px;
-   
+    /* box-shadow:  0 0 0 3px; */
+    
 }
 
 .timeline ul li .timeeven{
