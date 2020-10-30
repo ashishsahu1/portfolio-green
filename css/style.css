@@ -185,14 +185,7 @@ button:active{
     transition-duration: 1s;
 }
 
-.about-container:hover{
-    height: 510px;
-    width: 83%;
-}
 
-.about-container:hover img{
-    height: 300px;
-}
 
 
 .about-container img{
@@ -212,9 +205,7 @@ button:active{
     text-align: center;
     transition-duration: 1s;
 }
-.about-container:hover p:nth-child(1){
-    font-size: 43px;
-}
+
 
 
 
@@ -227,9 +218,7 @@ button:active{
     text-align: center;
     transition-duration: 1s;
 }
-.about-container:hover p:nth-child(2){
-    font-size: 28px;
-}
+
 
 .about-text p:nth-child(3){
     color: #7e7d7d;
@@ -240,9 +229,7 @@ button:active{
     text-align: center;
     transition-duration: 1s;
 }
-.about-container:hover p:nth-child(3){
-    font-size: 21px;
-}
+
 
 .about-text p:nth-child(4){
     font-family: sans-serif;
@@ -252,9 +239,7 @@ button:active{
     text-align: center;
     transition-duration: 1s;
 }
-.about-container:hover p:nth-child(4){
-    font-size: 23px;
-}
+
 
 .technologies{
     height: 600px;
