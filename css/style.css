@@ -37,7 +37,7 @@ section{
 
 #particles-js{
     height: 80%;
-    background:  #dbdbdb;
+    
 }
 
 nav{
@@ -45,7 +45,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     height: 60px;
-    background-color: #ffffff6b;
+    background-color: #ffffff;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
     padding: 0px 5%;
 }
@@ -363,8 +363,8 @@ button:active{
 .contact-me{
     margin-top: 10%;
     width: 100%;
-    height: 280px;
-    background-image: url("../images/contactback.png");
+    height: 400px;
+    background-color: #1a1a1a;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
