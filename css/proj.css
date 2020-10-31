@@ -77,7 +77,7 @@ nav ul li a:hover:not(.active){
     width: 300px;
     background-color: #1a1a1a;
     border-radius: 20px;
-    padding: 50px;
+    padding: 60px;
     font-size: 30px;
     text-align: center;
     transition-duration: 0.5s;
@@ -89,7 +89,7 @@ nav ul li a:hover:not(.active){
 }
 
 .projName{
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: center;
     font-size: 50px;
     font-family: sans-serif;
@@ -112,4 +112,25 @@ nav ul li a:hover:not(.active){
 .card img{
     height: 150px;
     border: #000000;
+}
+
+.card #submit{
+    width: 200px;
+    height: 40px;
+    background-color: #ffffff;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+    line-height: 30px;
+    transition-duration: 0.6s;
+}
+
+
+.card #submit:hover{
+    border-width: 2px;
+    background-color:#00B5B7;
+    color: #f6f5f5;
+    border-color: #fff;
 }
