@@ -44,6 +44,10 @@ nav ul{
 nav li{
     float: right;
 }
+nav .active {
+    background-color: #ebebeb;
+  }
+
 
 nav ul li a{
     display: block;
@@ -223,7 +227,7 @@ nav ul li a:hover:not(.active){
 }
 
 .fa-github:hover{
-    background: #4CAF50;
+    background: #2ea44f;
 }
 
 .fa-linkedin:hover{

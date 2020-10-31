@@ -72,9 +72,17 @@ nav ul li a{
     font-weight: lighter;
 }
 
-nav ul li a:hover:not(.active){
+/* nav ul li a:hover:not(.active){
+    background-color:#f3f3f3 ;
+} */
+
+nav ul li a:hover{
     background-color:#f3f3f3 ;
 }
+
+nav .active {
+    background-color: #ebebeb;
+  }
 
 .logo{
     font-family: sans-serif;
@@ -525,7 +533,7 @@ button:active{
 }
 
 .fa-github:hover{
-    background: #4CAF50;
+    background:#2ea44f;
 }
 
 .fa-linkedin:hover{

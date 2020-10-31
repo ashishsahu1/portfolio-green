@@ -1,7 +1,7 @@
 body{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+    background-color: #f6f5f5;
+    margin: 0px;
+    padding: 0px;  
     animation: fadeInAnimation 2s;
 }
 
@@ -13,19 +13,6 @@ body{
         opacity: 1; 
      } 
 } 
-
-
-body h1{
-    padding-top: 20px;
-    color: #403e3e;
-    font-family: sans-serif;
-    font-size: 40px;
-    font-weight: 23px;
-    line-height: 60px;
-    text-align: center;
-    font-weight: lighter;
-}
-
 
 .logo{
     font-family: sans-serif;
@@ -42,6 +29,7 @@ a{
     text-decoration: none;
 }
 
+
 nav{
     display: flex;
     justify-content: space-between;
@@ -54,10 +42,13 @@ nav{
 
 nav ul{
     display: flex;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
-nav ul li a:hover:not(.active){
-    background-color:#f3f3f3 ;
+nav li{
+    float: right;
 }
 
 nav ul li a{
@@ -69,122 +60,17 @@ nav ul li a{
     color: #505050;
     font-size: 20px;
     font-weight: lighter;
-    
+}
+
+nav ul li a:hover{
+    background-color:#f3f3f3 ;
 }
 
 nav .active {
     background-color: #ebebeb;
   }
 
-.timeline{
-    position: relative;
-    margin: 50px auto;
-    padding: 40px 0;
-    width: 1000px;
-}
-
-.timeline:before{
-    margin-top: 10px;
-    content: '';
-    
-    position: absolute;
-    left: 50%;
-    width: 3px;
-    height: 2350%;
-    background: #c5c5c5;
-}
-
-.timeline ul{
-    margin: 0;
-    padding: 0;
-}
-
-.timeline ul li{
-    list-style: none;
-    line-height: normal;
-    position: relative;
-    width: 50%;
-    padding: 20px 40px;
-    box-sizing: border-box;
-    border-radius: 15px;
-    /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2); */
-}
-
-.timeline ul li:hover{
-    /* box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.137);*/
-    background-color:#77abac2c; 
-}
-.timeline ul li:nth-child(odd)
-{
-    float: left;
-    text-align: right;
-    clear: both;
-}
-
-.timeline ul li:nth-child(even)
-{
-    float: right;
-    text-align: left;
-    clear: both;
-}
-
-.content{
-    padding-bottom: 20px;
-}
-
-
-
-.timeline ul li h3{
-    margin: 0;
-    padding: 0;
-    font-size: 25px;
-    font-weight: 600;
-    color: #2aa1a3 ;
-}
-.timeline ul li p:nth-child(2){
-    margin: 10px 0 0;
-    font-size: 20px;
-    padding: 0;
-    font-weight: bold;
-}
-.timeline ul li p:nth-child(3){
-    margin: 10px 0 0;
-    padding: 0;
-    font-weight: lighter;
-}
-
-.timeline ul li .timeodd h4, .timeline ul li .timeeven h4{
-    margin: 0;
-    padding: 0;
-}
-
-
-.timeline ul li .timeodd{
-    position: absolute;
-    top: 12px;
-    right: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background: #00B5B7;
-    color: #ffffff;
-    border-radius: 18px;
-    /* box-shadow:  0 0 0 3px; */
-    
-}
-
-.timeline ul li .timeeven{
-    position: absolute;
-    top: 12px;
-    left: -165px;
-    margin: 0;
-    padding: 8px 16px;
-    background: #00B5B7;
-    color: #ffffff;
-    border-radius: 18px;
-    box-shadow:  0 0 0 3px;
-}
-
-.contact-me{
+  .contact-me{
     margin-top: 10%;
     width: 100%;
     height: 400px;
@@ -271,7 +157,7 @@ nav .active {
 }
 
 .fa-github:hover{
-    background: #2ea44f;
+    background:#2ea44f;
 }
 
 .fa-linkedin:hover{
