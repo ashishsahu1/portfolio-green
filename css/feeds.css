@@ -231,6 +231,11 @@ img{
     background: #00b4b793;
     box-shadow: .5rem .5rem 3rem 1px rgba(0, 0, 0, 0.2);
     border-radius: .8rem;
+    transition-duration: 0.3s;
+}
+
+.blog-post__img:hover::before{
+    background: #1a1a1a28;
 }
 
 .blog-post__info{
@@ -266,4 +271,8 @@ img{
     color:#f3f3f3;
     background-color: #00B5B7;
     border-radius: 10px;
+}
+
+.blog-post__info a:hover{
+    background-color: #1a1a1a;
 }
