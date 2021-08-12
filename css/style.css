@@ -42,59 +42,114 @@ section{
 }
 
 nav{
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
+    height: 80px;
+    width: 100%;
     background-color: #ffffff;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    /* padding: 0px 5%; */
 }
 
 nav ul{
-    display: flex;
+    float: right;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
 
-nav li{
-    float: right;
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    padding: 0 20px 0 20px;
+    transition-duration: 1s;
+}
+
+nav ul li:hover{
+    background-color: #3e3d3d46;
 }
 
 nav ul li a{
-    display: block;
-    text-align: center;
-    padding: 18px 30px;
-    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     color: #505050;
-    font-size: 1.5vw;
+    font-size: 20px;
     font-weight: normal;
+}
+
+nav .checkbtn{
+    font-size: 40px;
+    color: #000000;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+
+#check{
+    display: none;
 }
 
 /* nav ul li a:hover:not(.active){
     background-color:#f3f3f3 ;
 } */
 
-nav ul li a:hover{
+/* nav ul li a:hover{
     background-color:#f3f3f3 ;
-}
+} */
 
-nav .active {
+/* nav .active {
     background-color: #ebebeb;
     font-weight: bold;
-  }
+  } */
 
-.logo{
-    padding-left: 5vw;
+nav .logo{
+    margin-left: 40px;
     font-family: 'Montserrat', sans-serif;
     color: #000000;
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: bolder;
+    line-height: 80px;
+    padding: 0 2vw;
 }
 
+@media(max-width:850px){
+    label.logo{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:760px){
+    nav .checkbtn{
+        display: block;
+    }
+    nav ul{
+        padding: 0;
+        z-index: 1;
+        overflow: hidden;
+        position: fixed;
+        background-color:rgb(255, 255, 255);
+        text-align: center;
+        height: 100vh;
+        top: 80px;
+        width: 70%;
+        left: -100%;
+        transition: all 1s;
+        transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+        font-weight: 600;
+        letter-spacing: 3pt;
+    }
+
+    nav #check:checked ~ ul{
+        left: 0%;
+    }
+}
 
 .text-container p:nth-child(1){
     font-family: 'Montserrat', sans-serif;
@@ -107,6 +162,7 @@ nav .active {
     font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     letter-spacing: 2px;
+    line-height: normal;
     color: #1a1a1a;
     font-size: 65px;
 }
@@ -154,8 +210,6 @@ nav .active {
     background-color: #1a1a1a;
     color: #e7e4e4;
 }
-
-
 
 button:active{
     transform: scale(1.1);
@@ -235,9 +289,7 @@ button:active{
     .model{
         display: none;
     }
-    /* .chat{
-        display: none;
-    } */
+
     .text-container{
         top: 0%;
         left: 30%;
@@ -252,8 +304,9 @@ button:active{
         text-align: center;
     }
     .text-container p:nth-child(1){
-        margin-left: 60px;
+        margin-left: 0px;
         line-height: normal;
+        text-align: center;
     }
     .btnClass{
         text-align: center;
@@ -281,6 +334,9 @@ button:active{
     .about-text p:nth-child(3){
         font-size: 15px;
     }
+
+    
+
 }
 
 .chat{
@@ -364,6 +420,7 @@ button:active{
     height: 80vh;
     background-color: #ffffff;
     padding: 2% 10% 0px 10%;
+
 }
 
 .technologies-text p:nth-child(1){
@@ -384,8 +441,8 @@ button:active{
     text-align: center;
 }
 .box-1,.box-2,.box-3{
-    width: 20vw;
-    height: 50vh;
+    width: 350px;
+    height: 400px;
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.3);
@@ -394,6 +451,7 @@ button:active{
     align-items: center;
     flex-direction: column;
     transition: 0.5s, 0.5s;
+    margin: 20px;
 }
 .box-1:hover{
     width: 25vw ;
@@ -411,6 +469,8 @@ button:active{
 
 .box-container{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     justify-content: space-evenly;
 }
 
