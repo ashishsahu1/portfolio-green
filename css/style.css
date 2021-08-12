@@ -225,6 +225,10 @@ button:active{
     .about-container .dp img{
         width: 250px;
     }
+
+    .about-container{
+        height: 70vh;
+    }
 }
 
 @media only screen and (max-width : 769px) {
