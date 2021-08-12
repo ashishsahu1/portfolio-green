@@ -68,7 +68,7 @@ nav ul li a{
     text-align: center;
     padding: 18px 30px;
     text-decoration: none;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #505050;
     font-size: 1.5vw;
     font-weight: normal;
@@ -89,7 +89,7 @@ nav .active {
 
 .logo{
     padding-left: 5vw;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #000000;
     font-size: 25px;
     font-weight: bold;
@@ -97,14 +97,14 @@ nav .active {
 
 
 .text-container p:nth-child(1){
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: #6d6d6d;
     font-size: 35px;
 }
 
 .text-container p:nth-child(2){
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
     letter-spacing: 2px;
     color: #1a1a1a;
@@ -113,11 +113,11 @@ nav .active {
 
 
 .text-container p:nth-child(3){
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #403e3e;
     font-size: 30px;
     line-height: 35px;
-    font-weight: lighter;
+    font-weight:normal;
 }
 
 .text-container p{
@@ -136,7 +136,7 @@ nav .active {
     width: 150px;
     height: 50px;
     border-radius: 10px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 18px;
     outline: none;
@@ -317,7 +317,7 @@ button:active{
 }
 .about-text p:nth-child(1){
     color: #403e3e;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 23px;
     line-height: 60px;
@@ -329,7 +329,7 @@ button:active{
 .about-text p:nth-child(2){
     color: #3e3d3d;
     font-size: 25px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     /* line-height: 10px; */
     text-align: center;
@@ -340,7 +340,7 @@ button:active{
 
 .about-text p:nth-child(3){
     color: #7e7d7d;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-align: justify;   
     font-size: 20px;
     line-height: 28px;
@@ -350,7 +350,7 @@ button:active{
 
 
 .about-text p:nth-child(4){
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #797979;
     font-size: 20px;
     font-weight :400;
@@ -368,7 +368,7 @@ button:active{
 
 .technologies-text p:nth-child(1){
     color: #403e3e;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 23px;
     line-height: 20px;
@@ -377,7 +377,7 @@ button:active{
 
 .technologies-text p:nth-child(2){
     color: #7e7d7d;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     /* line-height: 20px; */
     font-weight: bold;
@@ -438,7 +438,7 @@ button:active{
     border-radius: 50%;
     background-color: #ffffff;
     align-items: center;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     display: flex;
     justify-content: center;
@@ -446,13 +446,13 @@ button:active{
 
 .box-1 p:nth-child(2),.box-2 p:nth-child(2),.box-3 p:nth-child(2){
     color: #ffffff;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 23px;
     /* line-height: 0px; */
 }
 
 .box-1 p:nth-child(3),.box-2 p:nth-child(3),.box-3 p:nth-child(3){
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0px 0px 20px 0px;
     color: #8f8f8f;
     text-align: center;
@@ -489,7 +489,7 @@ button:active{
 .contact-me p:nth-child(2){
     color: #ffffff;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
