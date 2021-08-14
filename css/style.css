@@ -285,13 +285,19 @@ button:active{
     }
 }
 
+@media only screen and (max-width : 900px) {
+    .text-container{
+        top: -10%;
+    }
+}
+
 @media only screen and (max-width : 769px) {
     .model{
         display: none;
     }
 
     .text-container{
-        top: 0%;
+        top: -20%;
         left: 30%;
         width: 50%;
         margin: auto;
@@ -335,7 +341,9 @@ button:active{
         font-size: 15px;
     }
 
-    
+    .particle-js{
+        height: 150vh;
+    }
 
 }
 
@@ -417,7 +425,7 @@ button:active{
 
 
 .technologies{
-    height: 80vh;
+    height: auto;
     background-color: #ffffff;
     padding: 2% 10% 0px 10%;
 
@@ -454,16 +462,16 @@ button:active{
     margin: 20px;
 }
 .box-1:hover{
-    width: 25vw ;
-    height: 55vh;
+    width: 400px ;
+    height: 450px;
 }
 .box-2:hover{
-    width: 25vw ;
-    height: 55vh;
+    width: 400px ;
+    height: 450px;
 }
 .box-3:hover{
-    width: 25vw ;
-    height: 55vh;
+    width: 400px ;
+    height: 450px;
 }
 
 
