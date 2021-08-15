@@ -308,6 +308,7 @@ button:active{
     }
     .text-container p:nth-child(2), p:nth-child(3), .down-cv{
         text-align: center;
+        content: 'I am Ashish ';
     }
     .text-container p:nth-child(1){
         margin-left: 0px;
