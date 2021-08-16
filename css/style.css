@@ -291,6 +291,26 @@ button:active{
     }
 }
 
+@media only screen and (max-width : 450px){
+    .text-container p:nth-child(2), p:nth-child(3), .down-cv{
+        text-align: center;
+    }
+    .text-container p:nth-child(2){
+        margin-left: 0px;
+        line-height: normal;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .text-container p:nth-child(1){
+        font-size: 20px;
+    }
+
+    .text-container p:nth-child(3){
+        font-size: 20px;
+    }
+}
+
 @media only screen and (max-width : 769px) {
     .model{
         display: none;
@@ -308,7 +328,6 @@ button:active{
     }
     .text-container p:nth-child(2), p:nth-child(3), .down-cv{
         text-align: center;
-        content: 'I am Ashish ';
     }
     .text-container p:nth-child(1){
         margin-left: 0px;
@@ -560,6 +579,7 @@ button:active{
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    text-align: center;
 }
 
 .contact-me #submit{
