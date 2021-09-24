@@ -615,9 +615,9 @@ button:active{
     grid-gap: 30px;
 }
 
-.fa {
+.fab {
     padding: 20px;
-    font-size: 30px;
+    font-size: 20px;
     width: 20px;
     text-align: center;
     text-decoration: none;
@@ -647,6 +647,12 @@ button:active{
 .fa-instagram:hover{
     background:  #E1306C;
 }
+
+/* .fa-github{
+    background-image: url(../images/icons/github.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+} */
 
 .fa-github:hover{
     background:#2ea44f;
